@@ -24,7 +24,7 @@
 
 	
 	<link rel="stylesheet" href="<?=base_url()?>file_assert/main/css/skins/_all-skins.css">	
-
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -48,7 +48,7 @@
 		$back_gr=base_url()."file_assert/img/back_ground.png";
 	}
 ?>
-<body class="hold-transition dash-transparent bg-img" style="background-image: url(<?=$back_gr?>)" data-overlay="7">
+<body ng-app = "mylogin" class="hold-transition dash-transparent bg-img" style="background-image: url(<?=$back_gr?>)" data-overlay="7">
 	
 	<div class="container h-p100">
 		<div class="row align-items-center justify-content-center h-p100">	
@@ -61,7 +61,7 @@
 							<p class="text-white">Sign in to start your session</p>							
 						</div>
 						<div class="p-30 content-bottom rounded box-shadowed">
-							<form action="http://hyper-admin-templates.multipurposethemes.com/main/index.html" method="post">
+							<form action="" method="post">
 								<div class="form-group">
 									<div class="input-group mb-3">
 										<div class="input-group-prepend">

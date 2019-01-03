@@ -25,3 +25,16 @@ class Welcome extends CI_Controller {
 		// $this->load->view('welcome_message');
 	}
 }
+
+
+
+
+	//}
+	//public function error()
+	//{
+		//$this->load->library('user_agent');
+		 // $this->load->library('session');
+		// $this->load->view('welcome_message');
+		//$this->load->view('errors/Error_404');
+	//}
+//}

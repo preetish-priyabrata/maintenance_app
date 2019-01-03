@@ -60,3 +60,39 @@ $route['translate_uri_dashes'] = TRUE;
 */
 $route['api/example/users/(:num)'] = 'api/example/users/id/$1'; // Example 4
 $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/id/$1/format/$3$4'; // Example 8
+
+
+
+*//$route['default_controller'] = 'welcome';
+
+//$route['404_override'] = 'welcome/error';
+//$route['translate_uri_dashes'] = FALSE;
+######################################################Login  user information #################################
+$route['display_word']='login/home';
+$route['login-rocess']='login/check_login';
+
+
+
+################################################################################################################
+$route['home']='welcome';
+$route['user_dashboard_index']='login/user_dashboard';
+$route['user_dashboard_final_index']='login/user_dashboard_final';
+
+
+
+
+
+
+
+
+
+
+#############################################################################################################################
+#
+#													User Admin Controller
+#
+############################################################################################################################
+$route['user-admin']='adminuser/user_admin';
+$route['user-admin-home']='adminuser/user_admin_home';
+##############################################################################################################################
+########################################## ############################################################################################
